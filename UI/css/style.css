@@ -1,0 +1,300 @@
+.welcome-text {
+    /* background-color: #ccc; */
+    font-family: cursive;
+    font-size: 32px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.user-profile {
+    text-align: center;
+    margin-top: -470px;
+    margin-right: 50px;
+}
+
+.user-profile img {
+    height: 60px;
+    width: 60px;
+}
+
+.user-profile a {
+    text-decoration: none;
+    color: black;
+}
+
+.user-profile span {
+    font-size: 18px;
+}
+
+.num-entry {
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 60px;
+}
+
+.num-entry * {
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+.num-entry .number {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.home-content {
+
+    /* background-color: green; */
+    filter: brightness(800%);
+    color: black;
+
+    width: 600px;
+    height: 500px;
+    /* margin: 0 auto; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+
+    /* position: absolute;
+    left: 50%; */
+    margin-left: 100px;
+}
+
+.sidebar {
+    background-color: white;
+    height: 100%;
+    width:  40px;
+    padding-top: 40px;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+    overflow-x: hidden;
+}
+
+.sidebar a {
+    display: block;
+}
+
+.sidebar-img {
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.user-profile-link {
+    visibility: hidden;
+}
+
+.aside-num-of-entries {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    margin: 7px;
+    font-weight:  700;
+    visibility: hidden;
+}
+
+.all-diaries {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 400px;
+
+}
+
+.all-diaries a {
+    text-decoration: none;
+    color: black;
+}
+
+.diary {
+    border-left: 2px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.diary p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.diary * {
+    margin: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+}
+
+.mood {
+    /* margin-left: 440px; */
+    display: inline-block;
+}
+
+.mood > em {
+    margin-top: -50px;
+}
+
+.mood-icon {
+    height: 25px;
+    width: 25px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.green {
+    background-color: green;
+}
+
+
+
+/* scroll bar customization */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px black;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: black;
+}
+
+/* end */
+
+.full-width * {
+    /* display: block; */
+    width: 100%;
+    padding: 0 15px;
+}
+
+.full-width button {
+    width: 30%;        
+}
+
+.full-width a {
+    padding: 0px;
+}
+
+.full-width textarea {    
+    height: 200px;
+}
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+
+.btn-group {
+    float: right;
+}
+
+/* Text area style */
+.note {
+    background-image: -webkit-linear-gradient(transparent, transparent 30px black   30px, black  31px, black 31px);
+    background-image: -moz-linear-gradient(transparent, transparent 30px, black  30px, black  31px, black 31px);
+    background-image: -ms-linear-gradient(transparent, transparent 30px,  black 30px, black  31px, black 31px);
+    background-image: -o-linear-gradient(transparent, transparent 30px, black  30px, black  31px, black 31px);
+    background-image: linear-gradient(transparent, transparent 30px,  black 30px, black  31px, black 31px);
+    background-size: 100% 31px;
+    /* border: 1px solid black ;
+    border-radius: 5px; */
+    box-shadow: inset 0 1px 2px white;
+    line-height: 31px;
+    font-family: Arial, Helvetica, Sans-serif;
+    padding: 8px;
+}
+/* end */
+
+.right {
+    float: right;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+/* Tooltip text */
+.tooltip {
+    position: relative;    
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  /* end */
+
+
+  /* Media queries */
+
+@media screen and (max-width: 1010px) {
+    .home-content {
+        width: 500px;
+    }
+
+    .user-profile-link {
+        visibility: visible;
+    }
+
+    .user-profile {
+        visibility: hidden;
+    }
+
+    .tooltip  {
+        visibility: hidden;
+    }
+
+    .aside-num-of-entries {
+        visibility: visible;
+    }
+
+    .num-entry {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 715px) {
+    .home-content {
+        width: 350px;
+    }
+
+    .form-submit {
+        font-size: 14px;
+    }
+
+    .form-submit:hover {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .home-content {
+        margin-left: 15px;
+    }
+}

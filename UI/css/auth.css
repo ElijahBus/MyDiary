@@ -1,0 +1,96 @@
+
+
+.form-block {
+    /* background-color: green; */
+    filter: brightness(800%);
+    color: black;
+
+    width: 400px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.form-block * {
+    width: 350px;
+}
+
+.form-title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+.form-input {
+    padding: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    background-color: transparent;
+
+    height: 35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    color: black;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+}
+
+.form-label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.form-submit {
+    background-color: transparent;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+
+    height: 35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.form-submit:hover {
+    font-size: 24px;
+    border: 1px dashed black;
+}
+
+.have-an-account {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
+
+.have-an-account-link {
+    color: blue;
+    text-decoration: none;
+}
+
+.have-an-account-link:hover {
+    font-size: 14px;
+}
+
+
+/* Media queries */
+
+@media screen and (max-width: 500px) {
+    .form-block {
+        width: 320px;        
+    }
+
+    .form-block * {
+        width: 300px;
+    }
+}
