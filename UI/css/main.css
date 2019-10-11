@@ -1,0 +1,80 @@
+
+* {
+    box-sizing: border-box;    
+}
+
+.app-name {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #39170C;
+}
+
+.y-diary {
+    color: black;
+}
+
+.bg-image {
+    background-image: url("../image/Notary.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    filter: blur(50%);
+    /* filter: opacity(40%); */
+    -webkit-filter: blur(50%);
+}
+
+.container {
+    background-color: white;
+    filter: opacity(95%);
+
+    width: 1000px;
+    height: 600px;
+    margin: 40px auto;    
+    position: relative;
+
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.container-header {    
+    width: 100%;
+    padding: 10px 50px;
+    background-color: #fff;    
+}
+
+.container-header * {
+    display: inline;
+}
+
+.time-indicator {
+    float: right;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+
+
+/* Media queries */
+
+@media screen and (max-width: 1010px) {
+    .container {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 715px) {
+    .container {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container {
+        margin: 0px;
+    }    
+}
