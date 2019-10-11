@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MyDiary</title>
+    
+    <!-- Link to stylesheets -->
+    <link rel="stylesheet" href="../css/auth.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="bg-image">
+    <div class="container">
+        <div class="container-header">
+            <a href="../index.html">
+                <h2 class="app-name">M<span class="y-diary">y</span>Diary</h2> <span class="time-indicator">10:40</span>
+            </a>
+        </div>
+        <span class="date-indicator" hidden></span>
+        <div class="form-block">
+            <h3 class="form-title">Sign Up</h3>
+            <form action="./html/home.html">
+                <label class="form-label" for="fname">First Name</label>
+                <input class="form-input" type="text" name="fname" id="signup-fname" placeholder="Your first name here .." required autocomplete="off">
+                <label class="form-label" for="lname">Last Name</label>
+                <input class="form-input" type="text" name="lname" id="signup-lname" placeholder="Your last name here .." required autocomplete="off">
+                <label class="form-label" for="email">Email</label>
+                <input class="form-input bg-transparent" type="email" name="email" id="signup-email" placeholder="Your email here .." required autocomplete="off">
+                <label class="form-label" for="password">Password</label>
+                <input class="form-input" type="password" name="password" id="signup-password" placeholder="Your password here .." required>
+                
+                <button class="form-submit" type="submit" id="signup-submit">Sign Up</button>
+            </form>
+            <p class="have-an-account">Already have an account, <a href="./signin.html" class="have-an-account-link">Sign in here !</a></p>
+        </div>
+
+    </div>
+
+
+    <!-- JS -->
+    <script src="../js/dateTime.js"></script>
+</body>
+</html>
