@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MyDiary</title>
+    
+    <!-- Link to stylesheets -->
+    <link rel="stylesheet" href="../css/auth.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="bg-image">
+    <div class="container">
+        <div class="container-header">
+                <a href="../index.html">
+                    <h2 class="app-name">M<span class="y-diary">y</span>Diary</h2> <span class="time-indicator">10:40</span>
+                </a>
+        </div>
+        <!-- sidebar  -->
+        <div class="sidebar">
+            <a href="#"><img src="../image/home.png" alt="" srcset="" class="sidebar-img"></a>
+            <a href="./add_entry.html"><img src="../image/plus.png" alt="" srcset="" class="sidebar-img"></a>
+            <a href="./user_profile.html" class="user-profile-link"><img src="../image/user1.jpg" alt="" srcset="" class="sidebar-img"></a>            
+        </div>
+        <div class="home-content">
+            <h3 class="form-title">All</h3>
+            <!-- all diaries -->
+            <span class="date-indicator" hidden></span>
+            <div class="all-diaries">
+                <a href="./show_entry_content.html">
+                    <div class="diary">
+                            <span class="diary-date">Sunday,  18,10,2019</span><br>
+                            <b class="diary-title">Weekend realax</b>
+                            <p class="diary-content">Enjoy relaxing with fiends and relatives, was quiet wonderful...</p>
+                            <div class="mood"> 
+                                <em>Wonderful</em><img class="mood-icon" src="../image/not-bad.png" alt="marvel" srcset="">
+                            </div>                    
+                    </div>
+                </a>
+                <a href="./show_entry_content.html">
+                    <div class="diary">
+                            <span class="diary-date">Sunday,  18,10,2019</span><br>
+                            <b>At a meeting</b>
+                            <p>Nice moments of conversations with mates</p>
+                            <div class="mood"> 
+                                <em>Great</em><img class="mood-icon" src="../image/not-bad.png" alt="marvel" srcset="">
+                            </div>                    
+                    </div>
+                </a>
+                <a href="./show_entry_content.html">
+                    <div class="diary">
+                            <span class="diary-date">Sunday,  18,10,2019</span><br>
+                            <b>At an arrestment</b>
+                            <p>Bad moment passed after being arrsted by police men</p>
+                            <div class="mood"> 
+                                <em>Bad</em><img class="mood-icon" src="../image/bad.png" alt="marvel" srcset="">
+                            </div>   
+                    </div>
+                </a>
+                <a href="./show_entry_content.html">
+                    <div class="diary">
+                            <span class="diary-date">Sunday,  18,10,2019</span><br>
+                            <b>In prison</b>
+                            <p>Paying a visit to a friend who got jailed since years..</p>
+                            <div class="mood"> 
+                                <em>So bad</em><img class="mood-icon" src="../image/so-bad.png" alt="marvel" srcset="">
+                            </div>                    
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="user-profile right tooltip">
+            <a href="./user_profile.html">
+                <img src="../image/user1.jpg" alt="User Icon" srcset=""><br>
+                <span class="form-label">Elijah Busanga</span>                
+            </a>
+            <span class="tooltiptext">Go to profile settings</span>
+        </div>
+
+
+    </div>
+
+
+    <!-- JS -->
+    <script src="../js/dateTime.js"></script>
+</body>
+</html>
