@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MyDiary</title>
+    
+    <!-- Link to stylesheets -->
+    <link rel="stylesheet" href="../css/auth.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="bg-image">
+    <div class="container">
+        <div class="container-header">
+                <a href="../index.html">
+                    <h2 class="app-name">M<span class="y-diary">y</span>Diary</h2> <span class="time-indicator">10:40</span>
+                </a>
+        </div>
+        <!-- sidebar  -->
+        <div class="sidebar">
+            <a href="./home.html"><img src="../image/home.png" alt="" srcset="" class="sidebar-img"></a>
+            <a href="./add_entry.html" aria-disabled="true"><img src="../image/plus.png" alt="" srcset="" class="sidebar-img"></a>
+            <a href="./user_profile.html" class="user-profile-link"><img src="../image/user1.jpg" alt="" srcset="" class="sidebar-img"></a>
+        </div>
+        <div class="home-content">
+            <h3 class="form-title"></h3>
+            <!-- all diaries -->
+            <span class="date-indicator" hidden></span>
+            <div class="all-diaries full-width">
+                <b class="form-label">10 - 5 - 2019</b>
+                <br><br><br>
+                <form action="">                    
+                    <input class="form-input bold" type="text" name="title" id="edit-entry-title" readonly value="At a meeting"> 
+                    <textarea class="form-input note bg-transparent" name="note" id="edit-entry-note" cols="30" rows="10" readonly>
+                        Nice moment of conversation with mates,  it was so nice hearing everyone's idea on the point that the whole world face today... : 
+                        Where is technology bringing people ?
+                    </textarea>
+                    <br><br>
+                    <em class="form-label" for="mood">The moment was <em>Good</em></em>
+                    
+                    <br><br><br>
+                    <a href="./home.html"><button class="form-submit" type="button">Home</button></a>
+                    <a href="./edit_entry.html"><button class="form-submit" type="button">Edit</button></a>
+                </form>
+            </div>
+        </div>
+        <div class="user-profile right tooltip">
+                <a href="./user_profile.html">
+                    <img src="../image/user1.jpg" alt="User Icon" srcset=""><br>
+                    <span class="form-label">Elijah Busanga</span>                
+                </a>
+                <span class="tooltiptext">Go to profile settings</span>
+        </div>
+    </div>
+
+
+    <!-- JS -->
+    <script src="../js/dateTime.js"></script>
+</body>
+</html>
