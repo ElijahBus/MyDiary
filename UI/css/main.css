@@ -6,6 +6,11 @@
 .app-name {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #39170C;
+    text-decoration: underline;  
+}
+
+.title-bar-link {
+    text-decoration: none;
 }
 
 .y-diary {
