@@ -1,0 +1,32 @@
+{
+  "name": "mydiary",
+  "version": "1.0.0",
+  "description": "A journal app for penning thoughts and feellings\u001b[D\u001b[D\u001b[D\u001b[\u001b[3~\u001b[l\u001b[C\u001b[C\u001b[C\u001b[C",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel server/server.js --out-dir build",
+    "dev-start": "babel-watch server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElijahBus/MyDiary.git"
+  },
+  "author": "Busanga Elie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElijahBus/MyDiary/issues"
+  },
+  "homepage": "https://github.com/ElijahBus/MyDiary#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-watch": "^2.0.7",
+    "make-runnable": "^1.3.6",
+    "babel-polyfill": "^6.26.0"
+  }
+}
