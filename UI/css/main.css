@@ -18,9 +18,10 @@
 }
 
 .bg-image {
-    background-image: url("../image/Notary.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
+    /* background-image: url("../image/images\ \(1\).jpg"); */
+    background-color: #EDEDF5;
+    /* background-repeat: no-repeat; */
+    /* background-size: 100%; */    
     
     filter: blur(50%);
     /* filter: opacity(40%); */
